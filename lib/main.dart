@@ -1,4 +1,3 @@
-import 'package:cardborater/text_field.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -689,7 +688,7 @@ class _InputScreenState extends State<InputScreen> {
                             child: Text(
                               finalOutputController.text,
                               style: const TextStyle(
-                                fontSize: 25,
+                                fontSize: 50,
                               ),
                             ),
                           ),
