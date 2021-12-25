@@ -202,7 +202,9 @@ class _InputScreenState extends State<InputScreen> {
                               padding: const EdgeInsets.all(8.0),
                               child: TextField(
                                 controller: lengthController,
-                                keyboardType: TextInputType.number,
+                                keyboardType:
+                                    const TextInputType.numberWithOptions(
+                                        signed: true, decimal: true),
                                 decoration: const InputDecoration(
                                   border: OutlineInputBorder(),
                                   hintText: 'Length',
@@ -213,7 +215,9 @@ class _InputScreenState extends State<InputScreen> {
                               padding: const EdgeInsets.all(8.0),
                               child: TextField(
                                 controller: widthController,
-                                keyboardType: TextInputType.number,
+                                keyboardType:
+                                    const TextInputType.numberWithOptions(
+                                        signed: true, decimal: true),
                                 decoration: const InputDecoration(
                                   border: OutlineInputBorder(),
                                   hintText: 'Width',
@@ -248,7 +252,9 @@ class _InputScreenState extends State<InputScreen> {
                               padding: const EdgeInsets.all(8.0),
                               child: TextField(
                                 controller: topLayerWeightController,
-                                keyboardType: TextInputType.number,
+                                keyboardType:
+                                    const TextInputType.numberWithOptions(
+                                        signed: true, decimal: true),
                                 decoration: const InputDecoration(
                                   border: OutlineInputBorder(),
                                   hintText: 'Weight',
@@ -259,7 +265,9 @@ class _InputScreenState extends State<InputScreen> {
                               padding: const EdgeInsets.all(8.0),
                               child: TextField(
                                 controller: topLayerRateController,
-                                keyboardType: TextInputType.number,
+                                keyboardType:
+                                    const TextInputType.numberWithOptions(
+                                        signed: true, decimal: true),
                                 decoration: const InputDecoration(
                                   border: OutlineInputBorder(),
                                   hintText: 'Rate',
@@ -270,7 +278,9 @@ class _InputScreenState extends State<InputScreen> {
                               padding: const EdgeInsets.all(8.0),
                               child: TextField(
                                 controller: topLayerQuantityController,
-                                keyboardType: TextInputType.number,
+                                keyboardType:
+                                    const TextInputType.numberWithOptions(
+                                        signed: true, decimal: true),
                                 decoration: const InputDecoration(
                                   border: OutlineInputBorder(),
                                   hintText: 'Quantity',
@@ -329,7 +339,9 @@ class _InputScreenState extends State<InputScreen> {
                               padding: const EdgeInsets.all(8.0),
                               child: TextField(
                                 controller: fluitLayerWeightController,
-                                keyboardType: TextInputType.number,
+                                keyboardType:
+                                    const TextInputType.numberWithOptions(
+                                        signed: true, decimal: true),
                                 decoration: const InputDecoration(
                                   border: OutlineInputBorder(),
                                   hintText: 'Weight',
@@ -340,7 +352,9 @@ class _InputScreenState extends State<InputScreen> {
                               padding: const EdgeInsets.all(8.0),
                               child: TextField(
                                 controller: fluitLayerRateController,
-                                keyboardType: TextInputType.number,
+                                keyboardType:
+                                    const TextInputType.numberWithOptions(
+                                        signed: true, decimal: true),
                                 decoration: const InputDecoration(
                                   border: OutlineInputBorder(),
                                   hintText: 'Rate',
@@ -351,7 +365,9 @@ class _InputScreenState extends State<InputScreen> {
                               padding: const EdgeInsets.all(8.0),
                               child: TextField(
                                 controller: fluitLayerQuantityController,
-                                keyboardType: TextInputType.number,
+                                keyboardType:
+                                    const TextInputType.numberWithOptions(
+                                        signed: true, decimal: true),
                                 decoration: const InputDecoration(
                                   border: OutlineInputBorder(),
                                   hintText: 'Quantity',
@@ -410,7 +426,9 @@ class _InputScreenState extends State<InputScreen> {
                               padding: const EdgeInsets.all(8.0),
                               child: TextField(
                                 controller: middleLayerWeightController,
-                                keyboardType: TextInputType.number,
+                                keyboardType:
+                                    const TextInputType.numberWithOptions(
+                                        signed: true, decimal: true),
                                 decoration: const InputDecoration(
                                   border: OutlineInputBorder(),
                                   hintText: 'Weight',
@@ -421,7 +439,9 @@ class _InputScreenState extends State<InputScreen> {
                               padding: const EdgeInsets.all(8.0),
                               child: TextField(
                                 controller: middleLayerRateController,
-                                keyboardType: TextInputType.number,
+                                keyboardType:
+                                    const TextInputType.numberWithOptions(
+                                        signed: true, decimal: true),
                                 decoration: const InputDecoration(
                                   border: OutlineInputBorder(),
                                   hintText: 'Rate',
@@ -432,7 +452,9 @@ class _InputScreenState extends State<InputScreen> {
                               padding: const EdgeInsets.all(8.0),
                               child: TextField(
                                 controller: middleLayerQuantityController,
-                                keyboardType: TextInputType.number,
+                                keyboardType:
+                                    const TextInputType.numberWithOptions(
+                                        signed: true, decimal: true),
                                 decoration: const InputDecoration(
                                   border: OutlineInputBorder(),
                                   hintText: 'Quantity',
@@ -491,7 +513,9 @@ class _InputScreenState extends State<InputScreen> {
                               padding: const EdgeInsets.all(8.0),
                               child: TextField(
                                 controller: bottomLayerWeightController,
-                                keyboardType: TextInputType.number,
+                                keyboardType:
+                                    const TextInputType.numberWithOptions(
+                                        signed: true, decimal: true),
                                 decoration: const InputDecoration(
                                   border: OutlineInputBorder(),
                                   hintText: 'Weight',
@@ -502,7 +526,9 @@ class _InputScreenState extends State<InputScreen> {
                               padding: const EdgeInsets.all(8.0),
                               child: TextField(
                                 controller: bottomLayerRateController,
-                                keyboardType: TextInputType.number,
+                                keyboardType:
+                                    const TextInputType.numberWithOptions(
+                                        signed: true, decimal: true),
                                 decoration: const InputDecoration(
                                   border: OutlineInputBorder(),
                                   hintText: 'Rate',
@@ -513,7 +539,9 @@ class _InputScreenState extends State<InputScreen> {
                               padding: const EdgeInsets.all(8.0),
                               child: TextField(
                                 controller: bottomLayerQuantityController,
-                                keyboardType: TextInputType.number,
+                                keyboardType:
+                                    const TextInputType.numberWithOptions(
+                                        signed: true, decimal: true),
                                 decoration: const InputDecoration(
                                   border: OutlineInputBorder(),
                                   hintText: 'Quantity',
@@ -608,7 +636,9 @@ class _InputScreenState extends State<InputScreen> {
                             padding: const EdgeInsets.all(8.0),
                             child: TextField(
                               controller: labourChargeController,
-                              keyboardType: TextInputType.number,
+                              keyboardType:
+                                  const TextInputType.numberWithOptions(
+                                      signed: true, decimal: true),
                               decoration: const InputDecoration(
                                 border: OutlineInputBorder(),
                                 hintText: 'Labour Charge',
@@ -639,7 +669,9 @@ class _InputScreenState extends State<InputScreen> {
                             padding: const EdgeInsets.all(8.0),
                             child: TextField(
                               controller: profitPercentageController,
-                              keyboardType: TextInputType.number,
+                              keyboardType:
+                                  const TextInputType.numberWithOptions(
+                                      signed: true, decimal: true),
                               decoration: const InputDecoration(
                                 border: OutlineInputBorder(),
                                 hintText: 'Percentage',
