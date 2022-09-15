@@ -8,8 +8,10 @@ class HomeApp extends StatelessWidget {
   const HomeApp({Key? key}) : super(key: key);
 
   @override
-  Widget build(BuildContext context) => const MaterialApp(
-        home: InputScreen(),
+  Widget build(BuildContext context) => MaterialApp(
+        themeMode: ThemeMode.dark,
+        darkTheme: ThemeData.dark(),
+        home: const InputScreen(),
       );
 }
 
