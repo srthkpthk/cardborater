@@ -661,7 +661,7 @@ class _InputScreenState extends State<InputScreen> {
                           const Padding(
                             padding: EdgeInsets.all(8.0),
                             child: Text(
-                              'Percentage',
+                              'Conversion',
                               style: TextStyle(
                                 fontSize: 20,
                               ),
@@ -676,7 +676,7 @@ class _InputScreenState extends State<InputScreen> {
                                       signed: true, decimal: true),
                               decoration: const InputDecoration(
                                 border: OutlineInputBorder(),
-                                hintText: 'Percentage',
+                                hintText: 'Conversion',
                               ),
                             ),
                           ),
